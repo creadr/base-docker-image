@@ -10,5 +10,5 @@ RUN apt-get update && apt-get install -y \
     python-virtualenv\
     nginx\
 
-RUN curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -\
-    sudo apt-get install -y nodejs
+RUN curl -sL https://deb.nodesource.com/setup_7.x |  -E bash -\
+    apt-get install -y nodejs
