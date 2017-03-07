@@ -14,3 +14,4 @@ RUN apt-get update && apt-get install -y \
 
 RUN curl -sL https://deb.nodesource.com/setup_7.x | bash -
 RUN apt-get install -y nodejs
+CMD ["supervisord"]
